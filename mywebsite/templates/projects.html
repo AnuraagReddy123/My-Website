@@ -1,1 +1,204 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% block content %}
+<div>
+  <center>
+    <h1>Projects</h1>
+  </center>
+</div>
+<hr />
+<p>Here are some of the projects I have worked on over the years</p>
+<div>
+  <h2>Web Applications</h2>
+  <ul>
+    <li>
+      <h3>
+        <a href="https://github.com/AnuraagReddy123/Social-Media-Dashboard/" target="_blank">
+          Social Media Dashboard
+        </a>
+      </h3>
+      <p>Tech Stack: Javascript, Node.js, Express.js, MongoDB, REST API</p>
+      <p>
+        This project is a simple social media dashboard application with user registration, login,
+        and the ability to create, view, edit, and delete posts. The application uses Node.js for
+        the server-side logic, Express.js for routing, MongoDB for data storage, and JWT for
+        authentication.
+      </p>
+    </li>
+    <li>
+      <h3>This website!</h3>
+      <p>Tech Stack: Python, Django</p>
+      <p>
+        This portfolio website is a showcase of my work and skills. Built using Django, it features
+        a simple and clean interface. The website includes sections for my resume, projects, and
+        contact information, allowing visitors to learn more about me and my interests.
+      </p>
+    </li>
+  </ul>
+</div>
+<div>
+  <h2>Machine Learning</h2>
+  <ul>
+    <li>
+      <h3>
+        <a
+          href="https://colab.research.google.com/drive/1833IheMws5hmd4NXVk0GByhCIH_5phmp?usp=sharing"
+          target="_blank"
+        >
+          Implementing an SVM from scratch
+        </a>
+      </h3>
+      <p>Tech Stack: Jupyter, Python</p>
+      <p>
+        SVMs are widely used in a lot of applications in machine learning. They are quick and
+        versatile, making them a staple in machine learning. However the internal working of an SVM
+        is not so straightforward. Here I implemented an SVM from scratch, implementing the
+        Lagrangian equation and also implemented the kernel trick in the code
+      </p>
+    </li>
+    <li>
+      <h3>
+        <a
+          href="https://drive.google.com/file/d/1wWvcS0dkZC9mI6KG_lpkvw7e12-ojCOw/view?usp=sharing"
+          target="_blank"
+        >
+          A comparison between ARIMA and Deep Learning Models for Forecasting
+        </a>
+      </h3>
+      <p>Tech Stack: Python, Pytorch, LSTM, CNN</p>
+      <p>
+        In this project, motivated by the rapid rise of deep learning techniques, I conducted a
+        comprehensive comparison of traditional statistical models like ARIMA against modern deep
+        learning models (LSTM, CNN) for time series forecasting. The main goal was to assess if
+        classical models like ARIMA could still hold their ground against the cutting-edge deep
+        learning architectures. This project provided valuable insights into the relative strengths
+        and limitations of different forecasting techniques across various time series scenarios.
+      </p>
+    </li>
+    <li>
+      <h3>
+        <a
+          href="https://drive.google.com/file/d/1jcNG-xpGEDlUYiXwtIm5OKWc4reZsE7t/view?usp=sharing"
+          target="_blank"
+        >
+          Sentiment Analysis of Reddit Travel Data
+        </a>
+      </h3>
+      <p>Tech Stack: Python, PyTorch, BERT, spaCy</p>
+      <p>
+        I worked in a team to conduct sentiment analysis on the r/travel subreddit using
+        Huggingface’s Reddit dataset, focusing on pre-Covid and during-Covid periods. After
+        preprocessing the dataset, implementing spaCy’s lemmatization and resolving name variations
+        for data quality and coherence, we applied the RoBERTa model for sentiment analysis and
+        BERTopic for topic modeling, revealing insights into global travel patterns and sentiment
+        shifts.
+      </p>
+    </li>
+    <li>
+      <h3>
+        <a href="https://github.com/AnuraagReddy123/PRSUM" target="_blank">
+          PRSUM: A pull request description generator
+        </a>
+      </h3>
+      <p>Tech Stack: Python, PyTorch, LSTM, Attention</p>
+      <p>
+        PRSUM summarizes pull requests and generates pull request descriptions using multiple
+        artifacts such as source code comments, commit messages, issue titles and graphs based on
+        diffs of code
+      </p>
+    </li>
+    <li>
+      <h3>
+        <a href="https://github.com/AnuraagReddy123/Tic-Tac-Toe-Project" target="_blank">
+          Tic-Tac-Toe using Reinforcement Learning
+        </a>
+      </h3>
+      <p>Tech Stack: Python</p>
+      <p>
+        I created a Tic-Tac-Toe game using reinforcement learning techniques in python and
+        programmed three distinct AI opponents, each employing its unique learning approaches:
+        Value-based iteration, policy-based iteration, and Q-learning and trained and assessed these
+        agents in playing Tic-Tac-Toe against human opponents.
+      </p>
+    </li>
+  </ul>
+</div>
+<div>
+  <h2>Systems</h2>
+  <ul>
+    <li>
+      <h3>
+        <a href="https://github.com/AnuraagReddy123/MIPS_Simulator" target="_blank">
+          MIPS Simulator
+        </a>
+      </h3>
+      <p>Tech Stack: Python, MIPS</p>
+      <p>
+        I worked in a team to build a simulator for MIPS language to better understand assembly
+        instructions and the instruction pipeline in computer architecture. We designed and
+        implemented a pipeline structure and simulated a set of instructions for MIPS. We also
+        implemented an LRU cache to see how it affects the number of stalls and cycles per
+        instructions.
+      </p>
+    </li>
+    <li>
+      <h3>
+        <a href="https://github.com/AnuraagReddy123/compiler" target="_blank"> NHAN Compiler </a>
+      </h3>
+      <p>Tech Stack: C, Lex, Yacc, MIPS</p>
+      <p>
+        I worked on a team to design a new C-like language called NHAN, for which we built a
+        compiler using C. It supported arrays, functions and recursive functions. It used an
+        Abstract Syntax Tree(AST) as an intermediate representation and generated MIPS code as its
+        output. This MIPS code could be run on qtSpim to generate output.
+      </p>
+    </li>
+    <li>
+      <h3>
+        <a href="https://github.com/AnuraagReddy123/SampleTextEditor" target="_blank">
+          Student Marks Management CLI
+        </a>
+      </h3>
+      <p>Tech Stack: C++, FreeBSD</p>
+      <p>
+        I worked on a team to design and implement a console-based C++ program for managing student
+        marks data based on the
+        <a href="https://viewsourcecode.org/snaptoken/kilo/index.html" target="_blank">kilo</a> text
+        editor for the FreeBSD kernel and Implemented statistical analysis, including average marks
+        and highest/lowest marks. In addition we designed features for dynamic user and faculty
+        management, supporting different users at the operating system level. (Admin, Students,
+        Faculty) and utilized file operations to read and write data.
+      </p>
+    </li>
+  </ul>
+</div>
+<div>
+  <h2>Open Source</h2>
+  <ul>
+    <li>
+      <h3>
+        <a href="https://github.com/andregasser/bigbone/pull/309" target="_blank">
+          Bigbone: A BigBone Mastodon Client Library
+        </a>
+      </h3>
+      <p>Tech Stack: Java, Kotlin, JUnit</p>
+      <p>
+        I worked with the Bigbone team to implement the Announcement API. It involved creating
+        entities that were returned by the API and methods corresponding to the various announcement
+        APIs and writing tests in junit to validate the code.
+      </p>
+    </li>
+    <li>
+      <h3>
+        <a href="https://github.com/rootCircle/codemark-cli/pull/12" target="_blank">
+          Codemark CLI
+        </a>
+      </h3>
+      <p>Tech Stack: Python, Firebase</p>
+      <p>
+        I worked with the Codemark team to add a feature that enables users to create new user
+        profiles directly from the command line interface (CLI). The users can be either students or
+        professors.
+      </p>
+    </li>
+  </ul>
+</div>
+{% endblock content %} h3
