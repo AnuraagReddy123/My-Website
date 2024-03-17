@@ -1,17 +1,27 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anuraag Reddy Patllollu</title>
+
+    <link
+      rel="preload"
+      as="style"
+      href="{% static 'css/style.css' %}"
+      onload="this.rel = 'stylesheet'"
+    />
   </head>
   <body>
     {% include 'partials/__header.html' %}
-    <main>{% block content %} {% endblock content %}</main>
-    <hr />
+    <main>
+      {% block content %} {% endblock content %}
+      <hr />
+    </main>
   </body>
   <footer>
-    Socials
     <ul>
       <li><a href="https://www.linkedin.com/in/anuraag-reddy-p/" target="_blank"> LinkedIn </a></li>
       <li><a href="https://github.com/AnuraagReddy123/" target="_blank"> Github </a></li>

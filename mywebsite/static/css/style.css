@@ -1,0 +1,89 @@
+body {
+  margin-top: 0px;
+}
+
+nav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #f8f9fb;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 1rem;
+  text-align: left;
+  padding-inline-start: 0rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+nav ul a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav ul a:active {
+  text-decoration: underline;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+footer {
+  background-color: #edefee;
+  padding: 0.5rem;
+  display: flex;
+  gap: 2rem 1rem;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+  font-size: 1rem;
+  text-align: center;
+  padding-inline-start: 0rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+footer ul a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer ul a:active {
+  text-decoration: underline;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+}
